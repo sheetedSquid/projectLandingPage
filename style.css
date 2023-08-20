@@ -5,13 +5,26 @@ a {
     color: white;
 }
 
+ul {
+    list-style: none;
+}
+
+li{
+    padding-right: 50px;
+    width: 175px;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .first-container {
+    flex-shrink: 1;
     background-color: #1F2937;
     margin: 0;
     padding: 0 150px
@@ -81,3 +94,32 @@ body {
     font-size: 17px;
 }
 
+.second-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.second-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.second-list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 12px;
+    flex-wrap: wrap;
+    /* width: 175px; */
+}
+
+.list-image {
+    width: 175px;
+    height: 175px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
