@@ -205,3 +205,12 @@ body {
     margin-top: 0;
     color: #E5E7EB;
 }
+
+.footer {
+    height: 80px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
