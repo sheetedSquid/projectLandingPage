@@ -1,3 +1,3 @@
 # projectLandingPage
 
-Purpose of this project is to represent skills in cresting landing pages
+Purpose of this project is to represent skills in creating landing pages
